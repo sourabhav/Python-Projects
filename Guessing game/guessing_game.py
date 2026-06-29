@@ -1,8 +1,8 @@
 import random
 
-easy_words= [ "india", "book", "school", "city", "cat", "food" ]
-medium_words= [ "university", "bangalore", "laptop", "earth"]
-hard_words= [ "knowledge", "playground", "diamond", "maountain"]
+easy_words= [ "india", "book", "school", "city", "cat", "food","pen","toy" ]
+medium_words= [ "university", "bangalore", "laptop", "earth","house","happy"]
+hard_words= [ "knowledge", "playground", "diamond", "maountain","friends","beautiful","internship"]
 
 print("WELCOME TO PASSWORD GUESSING GAME!")
 print("Choose the difficulty level- easy/medium/hard :")
