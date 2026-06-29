@@ -12,7 +12,8 @@ def cal():
     print("4.Division")
     print("5.Modulus")
     print("6.Floor Division")
-    choice=int(input("Enter choice (1/2/3/4/5/6):"))
+    print("7.Exponential")
+    choice=int(input("Enter choice (1/2/3/4/5/6/7):"))
     print("-"*20)
         
     if choice==1:
@@ -25,8 +26,10 @@ def cal():
          print(f"Division of {a} and {b} is: {a/b}")
     elif choice==5:
          print(f"Modulus of {a} and {b} is: {a%b}")  
-    elif cjoice==6:    
-         print(f"Floor Division of {a} and {b} is: {a//b}")       
+    elif choice==6:    
+         print(f"Floor Division of {a} and {b} is: {a//b}")     
+    elif choice==7:
+        print(f"Exponential of {a} and {b} is: {a**b}")  
     else:
         print("invalid choice :(")
     print("-"*20)                   
